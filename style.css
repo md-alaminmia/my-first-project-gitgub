@@ -1,0 +1,171 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #8a1010;
+    }
+
+    .navbar {
+      width: 100%;
+      padding: 16px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: bold;
+      font-size: 22px;
+      color: #3b8f5a;
+    }
+
+    .logo span {
+      font-size: 12px;
+      display: block;
+      color: #555555;
+      font-weight: normal;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 32px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color:white;
+      font-size: 15px;
+    }
+
+    
+    
+
+    .bton {
+      background: #3b8f5a;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 164px;
+    }
+    .bton:hover {
+      background: #327a4d;
+    }
+
+
+
+
+body {
+  background: #0b1c2d;
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(35, 7, 9, 0.75);
+}
+
+.content {
+  position: relative;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #1f7f4c;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.banner .text {
+  width: 8px;
+  height: 8px;
+  background: #1f7f4c;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #2e2ecc;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #d5d1e6;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 14px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background: #2ecc71;
+  color: #08321c;
+}
+
+.btn.primary:hover {
+  background: #27b864;
+}
+
+.btn.secondary {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn.secondary:hover {
+  background: #ffffff;
+  color: #08321c;
+}
+.card{
+width: 100px;
+}
+.card img{
+  width: 50px;
+  padding: auto;
+  top: 5px;
+
+  
+}
